@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skills - Jeet Kshirsagar</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0a0f1b;
+      color: #fff;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 4rem;
+      background-color: #0a0f1b;
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #d9caca;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 2rem;
+    }
+
+    .nav-links li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+    }
+
+    .nav-links li a:hover,
+    .nav-links li a.active {
+      color: #00bfff;
+    }
+
+    .skills-container {
+      max-width: 1000px;
+      margin: 4rem auto;
+      padding: 0 2rem;
+    }
+
+    .skills-container h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 2.5rem;
+      color: #f1f1f1;
+    }
+
+    .skills-container h1::before {
+      content: "🛠️ ";
+    }
+
+    .skill-card {
+      display: flex;
+      background-color: #1a1a1a;
+      border-radius: 10px;
+      margin-bottom: 1.5rem;
+      padding: 1.5rem;
+      align-items: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+    .skill-icon {
+      font-size: 2.5rem;
+      margin-right: 1.5rem;
+    }
+
+    .skill-info h3 {
+      margin: 0;
+      font-size: 1.4rem;
+      color: #fff;
+    }
+
+    .skill-info p {
+      margin: 0.5rem 0 0;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Jeet.</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="achievements.html">Achievements</a></li>
+        <li><a href="skills.html" class="active">Skills</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="Projects.html">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Skills Section -->
+  <div class="skills-container">
+    <h1>My Skills</h1>
+
+    <div class="skill-card">
+      <div class="skill-icon">🐍</div>
+      <div class="skill-info">
+        <h3>Python Programming</h3>
+        <p>Proficient in writing clean, efficient code for data processing, automation, and application logic.</p>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-icon">📊</div>
+      <div class="skill-info">
+        <h3>Tableau</h3>
+        <p>Skilled at creating interactive dashboards and data visualizations to present complex insights clearly.</p>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-icon">🟠</div>
+      <div class="skill-info">
+        <h3>Orange (Data Mining)</h3>
+        <p>Experience in using Orange for visual programming and machine learning tasks like classification, clustering, and data visualization.</p>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-icon">🗄️</div>
+      <div class="skill-info">
+        <h3>Oracle & SQL</h3>
+        <p>Familiar with database design, querying, and managing relational data using Oracle and standard SQL syntax.</p>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-icon">💻</div>
+      <div class="skill-info">
+        <h3>C Programming</h3>
+        <p>Solid understanding of C programming concepts such as loops, arrays, pointers, and memory management.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

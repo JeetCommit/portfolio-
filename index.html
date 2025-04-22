@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jeet kshirsagar</title>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #0a0f1b;
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      padding: 2rem 4rem;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 2rem;
+    }
+
+    .nav-links li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .nav-links li a:hover {
+      color: #00bfff;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 4rem;
+      flex-wrap: wrap;
+    }
+
+    .hero-content {
+      max-width: 600px;
+    }
+
+    .hero-content h1 {
+      font-size: 2.5rem;
+    }
+
+    .highlight {
+      color: #00bfff;
+    }
+
+    .hero-content h2 {
+      font-size: 2rem;
+      color: #00bfff;
+      margin-top: 1rem;
+    }
+
+    .hero-content p {
+      margin: 1.5rem 0;
+      color: #ccc;
+      line-height: 1.6;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 1rem;
+      margin: 1rem 0;
+    }
+
+    .btn {
+      text-decoration: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    .btn.primary {
+      background-color: #00bfff;
+      color: #000;
+    }
+
+    .btn.secondary {
+      border: 2px solid #00bfff;
+      color: #00bfff;
+    }
+
+    .btn.secondary:hover {
+      background-color: #00bfff;
+      color: #000;
+    }
+
+    .social-icons {
+      margin-top: 1.5rem;
+    }
+
+    .social-icons a {
+      margin-right: 1rem;
+      font-size: 1.2rem;
+      color: #00bfff;
+      text-decoration: none;
+    }
+
+    .hero-image img {
+      max-width: 350px;
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .hero-image {
+        margin-top: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+          <div class="logo">Jeet.</div>
+          <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <!-- <li><a href="contact.html">Contact</a></li> -->
+            <li><a href="achievements.html">Achievements</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="testimonials.html" class="active">Testimonials</a></li>
+            <li><a href="Projects.html" class="active">Projects</a></li>
+          </ul>
+        </nav>
+      </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1><span class="highlight">Hi, I'm Jeet Kshirsagar</span></h1>
+      <h2>Welcome to my Portfolio</h2>
+      <p>I’m passionate about building creative and user-friendly digital experiences. Whether solving algorithmic problems, I enjoy turning ideas into reality through code.</p>
+      <p>Feel free to explore my portfolio and get to know more about my skills, achievements</p>
+      <div class="buttons">
+        <a href="#" class="btn primary">Hire Me</a>
+        <a href="#" class="btn secondary">Let's Talk</a>
+      </div>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="Jeet kshirsagar.jpg" alt="Jeet Kshirsagar" />
+    </div>
+  </section>
+
+  <script>
+    // You can add JavaScript functionality here if needed
+    console.log("Portfolio page loaded!");
+  </script>
+</body>
+</html>

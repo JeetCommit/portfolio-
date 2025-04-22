@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Me - Jeet Kshirsagar</title>
+  <style>
+    body {
+      background-color: #0d1117; /* Dark background */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      color: #f0f6fc; /* Light text */
+      display: flex;
+      flex-direction: column;
+    }
+
+    .navbar {
+      background-color: #161b22;
+      padding: 1rem;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+
+    .navbar a {
+      color: #f0f6fc;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+      color: #58a6ff; /* Blue accent */
+    }
+
+    .contact-form {
+      background: #161b22; /* Slightly lighter dark card */
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+      width: 100%;
+      max-width: 450px;
+      margin: 2rem auto;
+      flex-grow: 1;
+    }
+
+    .contact-form h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      color: #58a6ff; /* Blue accent */
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      background-color: #0d1117;
+      border: 1px solid #30363d;
+      border-radius: 5px;
+      font-size: 1rem;
+      color: #f0f6fc;
+    }
+
+    .contact-form input::placeholder,
+    .contact-form textarea::placeholder {
+      color: #8b949e;
+    }
+
+    .contact-form button {
+      width: 100%;
+      padding: 0.9rem;
+      background-color: #21262d;
+      color: #f0f6fc;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .contact-form button:hover {
+      background-color: #58a6ff;
+      color: #0d1117;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="About.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="achievements.html">Achievements</a>
+    <a href="skills.html">Skills</a>
+    <a href="Testimonials.html">Testimonials</a>
+    <a href="Projects.html">Projects</a>
+  </nav>
+
+  <form class="contact-form" action="mailto:your.email@example.com" method="post" enctype="text/plain">
+    <h2>Contact Me</h2>
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+
+</body>
+</html>
